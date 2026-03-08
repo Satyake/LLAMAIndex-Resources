@@ -5,7 +5,6 @@ load_dotenv()
 from llama_index.llms.openai import OpenAI
 from llama_index.readers.web import SimpleWebPageReader
 from llama_index.core import VectorStoreIndex
-OPENAI_API_KEY="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"
 load_dotenv()
 os.environ['OPENAI_API_KEY']=OPENAI_API_KEY
 def main():
